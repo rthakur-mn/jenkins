@@ -1,9 +1,8 @@
-Pipeline{
-  agent any{
+pipeline{
+  agent any
     stages{
       stage('buidling'){
         sh 'mvn clean compile'
       }
     }
-  }
 }
